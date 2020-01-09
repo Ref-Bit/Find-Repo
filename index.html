@@ -1,0 +1,41 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootswatch CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Find Repo</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Find Repo</a>
+  </button>
+</nav>
+
+<main role="main" class="container">
+  <div class="searchTemplate row mt-5 py-5">
+    <div class="col-md-12">
+      <h1>Search GitHub Users</h1>
+      <p class="lead">Enter a username to fetch user profile and repositories.</p>
+      <input type="text" id="searchUser" class="form-control" placeholder="GitHub Username...">
+    </div>
+    <div class="col-md-12">
+      <div id="profile"></div>
+    </div>
+  </div>
+</main><!-- /.container -->
+
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+  </body>
+</html>
